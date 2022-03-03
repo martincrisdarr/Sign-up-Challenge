@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.general {
+  background: url("../images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  mix-blend-mode: multiply;
+  position: relative;
+  height: 100vh;
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 80%;
+}
+
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text {
+  color: white;
+  height: 100vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0 0 19%;
+}
+
+.text h1 {
+  font-size: 300%;
+  line-height: 2.7rem;
+}
+
+.text p {
+  padding-top: 7%;
+  line-height: 1.5rem;
+}
+
+.formulario {
+  height: 100vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formulario .whiteContainer {
+  width: 65%;
+  height: 380px;
+  padding-top: 5%;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 7px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 7px 2px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario .whiteContainer input {
+  width: 85%;
+  height: 45px;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  border: 0.5px solid #dad4d4;
+  padding: 0 5%;
+}
+
+.formulario .whiteContainer input:focus {
+  outline: solid 1px #3e3c49;
+}
+
+.formulario .violet {
+  width: 65%;
+  height: 50px;
+  color: #fff;
+  background-color: #6055a5;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.formulario .violet span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.formulario .greenButton {
+  width: 85%;
+  height: 45px;
+  background-color: #38cc8c;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 2px 2px 1px rgba(2, 105, 16, 0.555);
+          box-shadow: 0 2px 2px 1px rgba(2, 105, 16, 0.555);
+  cursor: pointer;
+}
+
+.formulario .greenButton:active {
+  opacity: 0.8;
+}
+
+.formulario .downText {
+  font-size: 60%;
+  color: #b9b6d3;
+}
+
+.formulario .downText span {
+  color: #ff7a7a;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=imports.css.map */

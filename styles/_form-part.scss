@@ -1,0 +1,78 @@
+.formulario {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50px;
+  flex-direction: column;
+  .whiteContainer {
+    width: 65%;
+    height: 380px;
+    padding-top: 5%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 7px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    input {
+      width: 85%;
+      height: 45px;
+      font-size: 90%;
+      font-weight: bold;
+      font-family: $poppins;
+      letter-spacing: 0.5px;
+      border-radius: 5px;
+      border: 0.5px solid rgb(218, 212, 212);
+      padding: 0 5%;
+      &:focus {
+        outline: solid 1px $darkBlue;
+      }
+    }
+  }
+  .violet {
+    width: 65%;
+    height: 50px;
+    color: #fff;
+    background-color: $blue;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    span {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  }
+  .greenButton {
+    width: 85%;
+    height: 45px;
+    background-color: $green;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 1px rgba(2, 105, 16, 0.555);
+    cursor: pointer;
+    &:active {
+      opacity: 0.8;
+    }
+  }
+  .downText {
+    font-size: 60%;
+    color: $gayish;
+    span {
+      color: $red;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
